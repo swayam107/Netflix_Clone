@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+.signupScreen {
+    width: 300px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    padding: 4.8rem;
+    padding-top: 4rem;
+    margin:  auto;
+    background: rgba(0,0,0,0.75);
+    border-radius: 8px;
+    top: 4rem;
+    /* opacity: 90%; */
+    
+}
+
+.signupScreen > form {
+    display: grid;
+    flex-direction: column;
+}
+
+.signupScreen > form > h1 {
+    text-align: left;
+    margin-bottom: 1.4rem;
+}
+
+.signupScreen > form > input {
+    padding: 5px 15px;
+    outline-width: 0;
+    height: 2.55rem;
+    border-radius: 5px;
+    border: none;
+    margin: 9px 0;
+    background-color: #454545;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.signupScreen > form > input::placeholder {
+    color: #a3a3a3;
+   }
+
+.signupScreen > form > button {
+    font-family: 'Montserrat', sans-serif;
+    padding: 16px 20px;
+    font-size: 1rem;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #e50914;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-bottom: 0.8rem;
+    transition: all 0.4s ease;
+
+}
+
+.signupScreen > form > button:hover {
+    background-color: #bb0912;
+}
+
+.signupScreen_rememberMe {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.signupScreen_rememberMe > input {
+    margin-top: 1px;
+    width: 1rem;
+    border: none;
+    border-radius: 2px;
+    accent-color: #525252;
+}
+
+.signupScreen_rememberMe > p {
+    margin-left: 4px;
+    font-size: 0.8rem;
+}
+
+.signupScreen_gray {
+    color: rgb(132, 132, 132);
+}
+
+.signupScreen > form > h4 {
+    text-align: left;
+    margin: 3rem 0;
+    font-weight: 400;
+}
+
+.signupScreen_link {
+    cursor: pointer;
+    
+}
+
+.signupScreen_link:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,183 @@
+.loginScreen {
+    position: relative;
+    height: 100%;
+    background: url("https://assets.nflxext.com/ffe/siteui/vlv3/00103100-5b45-4d4f-af32-342649f1bda5/64774cd8-5c3a-4823-a0bb-1610d6971bd4/IN-en-20230821-popsignuptwoweeks-perspective_alpha_website_large.jpg") center no-repeat;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.loginScreen > audio {
+    display: none;
+}
+
+.loginScreen_logo {
+    position: fixed;
+    left: 1%;
+    width: 9.2rem;
+    object-fit: contain;
+    margin: 1rem 1.3rem;
+    cursor: pointer;
+}
+
+.loginScreen_gradient {
+    width: 100%;
+    z-index: 1;
+    height: 100vh;
+    background: rgba(0,0,0,0.4) 100%;
+    background-image: linear-gradient(
+        to top,
+        rgba(0,0,0,0.8) 0,
+        rgba(0,0,0,0) 60%,
+        rgba(0,0,0,0.8) 100%
+    );
+}
+
+.loginScreen_sound {
+    height: 1.2rem;
+    z-index: 0;
+    position: fixed;
+    right: 10rem;
+    top: 2rem;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    transition: all 0.42s ease;
+}
+
+.loginScreen_sound > img  {
+    height: 1.5rem;
+    z-index: 0;
+    position: fixed;
+    right: 10rem;
+    top: 1.8rem;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    transition: all 0.42s ease;
+}
+
+
+
+.loginScreen_button {
+    font-family: 'Montserrat', sans-serif;
+    z-index: 0;
+    font-size: 0.8rem;
+    font-weight: 600;
+    position: fixed;
+    right: 2.8rem;
+    top: 1.4rem;
+    padding: 10px 21px;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    background-color: #d40812;
+    border-radius: 5px;
+    transition: all 0.42s ease;
+}
+
+.loginScreen_button:hover {
+    background-color: #a30a11;
+}
+
+.loginScreen_body {
+    /* align-items: center; */
+    position: absolute;
+    z-index: 0;
+    top: 6.6%;
+    color: #fff;
+    padding: 5rem;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    left: 0;
+    right: 0;
+}
+
+.loginScreen_body > h1 {
+    /* position: relative; */
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 5rem;
+    margin-bottom: 15px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.loginScreen_body > h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 1.3rem;
+    margin-bottom: 30px;
+}
+
+.loginScreen_body > h3 {
+    margin-top: 2.2rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.loginScreen_input > form {
+    margin: 1.3rem 0;
+}
+
+
+
+.loginScreen_input > form > input {
+    padding: 1rem;
+    outline-width: 0;
+    height: 1.3rem;
+    width: 45%;
+    border: none;
+    max-width: 600px;
+    min-width: 320px;
+    margin-right: 0.8rem;
+    border-radius: 3px;
+    background-color: rgba(68, 68, 68, 0.58);
+    color: #fff;
+    font-size: 1rem;
+    backdrop-filter: blur(0.8px);
+    box-shadow: 3px 3px 6px rgb(17, 17, 17);
+    transition: all 0.4s ease;
+    
+}
+
+.loginScreen_input > form > input:hover {
+    filter: contrast(110%);
+}
+
+.loginScreen_input > form > input::placeholder {
+    font-family: 'Montserrat', sans-serif;
+    color: #cecece;
+    opacity: 76%;
+}
+
+
+.loginScreen_getStarted {
+    font-family: 'Montserrat', sans-serif;
+    padding: 17px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #e50914;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    border: none;
+    font-weight: 600;
+}
+
+.loginScreen_getStarted:hover {
+    background-color: #b30d15;
+}
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+    .loginScreen_body > h1 {
+        font-size: 2.5rem;
+        font-weight: 500;
+    }
+
+    
+}
